@@ -19,12 +19,11 @@
 
 
     <script>
+    (function game() {
       var canvasEl = document.getElementById("game-canvas");
       var statsEl = document.getElementById("stats");
-      var game = new window.Asteroids.Game();
-      canvasEl.height = game.DIM_Y;
-      canvasEl.width = game.DIM_X;
-      new Asteroids.GameView(game).start(canvasEl, statsEl);
+      new Asteroids.GameView().start(canvasEl, statsEl);
+    }())
    </script>
   </body>
 </html>
