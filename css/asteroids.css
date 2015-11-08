@@ -27,17 +27,17 @@ body {
   font-family: sans-serif;
 }
 .game-stats{
-  /*display: block;
-  float: left;
+  display: block;
+  /*float: left;*/
   border: 2px solid black;
-  width: 400px;
-  height: 250px;*/
+  width: 1200px;
+  height: 150px;
 }
 .game {
 }
 .canvas {
   border: 5px solid lightgray;
   background-color: transperant;
-  width: 1500px;
+  width: 1200px;
   height: 700px;
 }
