@@ -5,7 +5,7 @@
 ### Object Class Prototypes
   - Game - Manages game stats and time steps
   - GameView - Renders the game into the page
-  - MovingObject - Manages functions for all moving object type.
+  - MovingObject - Manages functions for all moving object types.
   - Ship - Ship Object
   - Bullet - Bullet Object
   - Asteroid - Asteroid object, takes a config hash and can represent asteroids with different stats and sprites, making it simple to add additional asteroid types.
