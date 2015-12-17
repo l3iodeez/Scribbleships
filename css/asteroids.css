@@ -9,7 +9,7 @@ h1, h2, p, strong, em, a, ul, li {
   text-decoration: inherit;
   text-align: inherit;
   color: inherit;
-  background: transparent;
+  background: black;
 }
 
 ul {
