@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
 html, body, section, article,
 h1, h2, p, strong, em, a, ul, li {
   margin: 0;
@@ -23,22 +25,22 @@ ul {
 }
 
 body {
-  font-size: 18px;
-  font-family: sans-serif;
+  font-size: 1000px;
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
 }
 .game-stats{
   position: absolute;
   top: 20px;
-  left: 30px;
+  left: 20px;
   color: yellow;
-  display: block;
-  border: 2px solid black;
-
+  font-family: 'Gloria Hallelujah', cursive, sans-serif;
 }
+
 .game {
 }
 .canvas {
-  background-color: transperant;
+  background-image: url("../image/woodbackground.jpg");
+  background-repeat: repeat;
   width: 100%;
   height: 100%;
 }
