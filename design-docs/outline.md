@@ -1,4 +1,15 @@
 ## Future Plans
+  - GamePlay
+    - 5 second invulnerability at spawn
+  - PowerUps
+    - Extra lives
+    - Bigger, more powerful bullets
+    - Spray bullets
+    - Shields
+  - MOBS
+    - Paper airplane
+    - Spitball ("Spitball incoming!")
+    - Rubber band ball
 
 ### Object classes
   - Game
