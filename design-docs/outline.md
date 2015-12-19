@@ -28,3 +28,7 @@
     - Renders ship at center of view.
     - Renders objects in view by converting their global coordinates to view coordinates.  
     - Renders options menu / start menu etc.
+
+### Todo
+  - DRY up sprite rendering.
+  -
