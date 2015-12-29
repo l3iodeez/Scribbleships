@@ -21,7 +21,23 @@
     <!-- <script type="text/javascript" src="/socket.io/socket.io.js"></script> -->
     <link href="css/asteroids.css" rel="stylesheet" type="text/css" />
 
-    <section class="stats"></section>
+    <section class="menu hidden" id="menu">
+      <div class="text-container">
+        <p>Scribbleships</p>
+        <ul>
+          <li>Instructions:</li>
+          <li>Use mouse to pilot your ship.</li>
+          <li>Click to shoot. Large asteroids may take more than one shot to crack.</li>
+          <li>When you have enough, points find the exit to move to the next level.</li>
+          <li>Press P to pause the game.</li>
+        </ul>
+      </div>
+      <div class="button-container">
+        <button id="start">Start</button>
+        <button class="hidden" id="resume">Resume</button>
+        <button class="hidden" id="restart">Restart</button>
+      </div>
+    </section>
       <canvas class="canvas" id ="game-canvas"></canvas>
       <section class="game-stats" id="stats-section"></section>
 
