@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 html, body, section, article,
 h1, h2, p, strong, em, a, ul, li, button{
@@ -25,7 +26,6 @@ ul {
 }
 
 body {
-
   font-family: 'Gloria Hallelujah', cursive, sans-serif;
 }
 .game-stats{
@@ -54,8 +54,9 @@ body {
   position: absolute;
   left: calc(50% - 400px);
   top: calc(50% - 250px);
-  padding: 25px 30px 25px 32px;
+  padding: 25px 30px 35px 32px;
 }
+
 .hidden {
   display: none;
 }
@@ -63,14 +64,18 @@ body {
   margin: 10px;
   font-size: 16px;
   color: #FFF;
+  padding-left: 20px;
 }
-.text-container p {
-  text-align: center;
+.text-container h1 {
+  font-family: 'Permanent Marker', cursive; 
+  text-align: left;
   font-size: 26px;
+  padding-bottom: 10px;
 }
 .button-container {
   text-align: center;
   font: inherit;
+  padding-top: 20px;
 }
 .button-container {
   font-family: 'Gloria Hallelujah', cursive;
