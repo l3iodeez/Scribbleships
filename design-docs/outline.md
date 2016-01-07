@@ -9,7 +9,7 @@
   - MOBS
     - Paper airplane
     - Spitball ("Spitball incoming!")
-    - Rubber band ball
+    - Rubber band ball planet
 
 ### Object classes
   - Game
