@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 
 html, body, section, article,
-h1, h2, p, strong, em, a, ul, li {
+h1, h2, p, strong, em, a, ul, li, button{
   margin: 0;
   border: 0;
   padding: 0;
@@ -11,7 +11,7 @@ h1, h2, p, strong, em, a, ul, li {
   text-decoration: inherit;
   text-align: inherit;
   color: inherit;
-  background: black;
+  background: transparent;
 }
 
 ul {
@@ -25,7 +25,7 @@ ul {
 }
 
 body {
-  font-size: 1000px;
+
   font-family: 'Gloria Hallelujah', cursive, sans-serif;
 }
 .game-stats{
@@ -43,4 +43,50 @@ body {
   background-repeat: repeat;
   width: 100%;
   height: 100%;
+}
+
+.menu {
+  background-image: url("../image/Chalkboard.png");
+  background-repeat: no-repeat;
+  font-family: 'Gloria Hallelujah', cursive;
+  width: 639px;
+  height: 397px;
+  position: absolute;
+  left: calc(50% - 400px);
+  top: calc(50% - 250px);
+  padding: 25px 30px 25px 32px;
+}
+.hidden {
+  display: none;
+}
+.text-container {
+  margin: 10px;
+  font-size: 16px;
+  color: #FFF;
+}
+.text-container p {
+  text-align: center;
+  font-size: 26px;
+}
+.button-container {
+  text-align: center;
+  font: inherit;
+}
+.button-container {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 16px;
+  color: #FFF;
+  margin: auto;
+
+}
+button {
+  display: inline-block;
+  height: 35px;
+  width: 125px;
+  border-radius: 10px;
+  border: 1px solid #FFF;
+  background-color: transparent;
+}
+.button-container button:hover {
+  color: #FFEB3B;
 }
