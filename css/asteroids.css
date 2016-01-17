@@ -67,7 +67,7 @@ body {
   padding-left: 20px;
 }
 .text-container h1 {
-  font-family: 'Permanent Marker', cursive; 
+  font-family: 'Permanent Marker', cursive;
   text-align: left;
   font-size: 26px;
   padding-bottom: 10px;
@@ -83,6 +83,22 @@ body {
   color: #FFF;
   margin: auto;
 
+}
+section.android {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: contain;
+}
+section.android h1 {
+  font-size: 10px;
+}
+section.android li {
+  font-size: 8px;
+}
+section.android button {
+  font-size: 8px;
 }
 button {
   display: inline-block;
