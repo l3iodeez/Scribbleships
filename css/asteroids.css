@@ -99,6 +99,11 @@ section.android li {
 }
 section.android button {
   font-size: 8px;
+  text-align:  center;
+}
+section.android .button-container {
+  text-align: left;
+  margin-left: 10px;
 }
 button {
   display: inline-block;
