@@ -85,11 +85,11 @@ body {
 
 }
 section.android {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background-size: contain;
+  width: 346px;
+  height: 200px;
+  left: calc(50% - 176px);
+  top: calc(50% - 100px);
+  background-size: cover;
 }
 section.android h1 {
   font-size: 10px;
@@ -104,6 +104,8 @@ section.android button {
 section.android .button-container {
   text-align: left;
   margin-left: 10px;
+  padding-top: 10px;
+
 }
 button {
   display: inline-block;
