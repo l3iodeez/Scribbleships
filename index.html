@@ -18,7 +18,6 @@
     <script src="lib/gameView.js"></script>
     <script src="lib/keymaster.js"></script>
     <script src="lib/powerup.js"></script>
-    <script src="lib/plugin.js"></script>
     <!-- <script type="text/javascript" src="/socket.io/socket.io.js"></script> -->
     <link href="css/asteroids.css" rel="stylesheet" type="text/css" />
 
@@ -42,14 +41,13 @@
       </div>
     </section>
       <canvas class="canvas" id ="game-canvas"></canvas>
-      <section class="game-stats" id="stats-section"></section>
+
 
 
     <script>
     (function game() {
       var canvasEl = document.getElementById("game-canvas");
-      var statsEl = document.getElementById("stats-section");
-      new Asteroids.GameView().start(canvasEl, statsEl);
+      new Asteroids.GameView().start(canvasEl);
 
       // var socket = io.connect('/');
       // //Now we can listen for that event

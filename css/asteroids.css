@@ -13,7 +13,6 @@ h1, h2, p, strong, em, a, ul, li, button{
   text-align: inherit;
   color: inherit;
   background: transparent;
-  border: 1px solid transparent;
 
 
 }
@@ -30,13 +29,18 @@ ul {
 
 @font-face {
     font-family: "Gloria Hallelujah";
-    src: url("./fonts/Gloria.woff2") format("woff2");   
-        /* Make sure you defined the correct path, which is related to
-            the location of your file `my_css.css` */
+    src: url("../fonts/Gloria.woff2") format("woff2");
+
+}
+@font-face {
+    font-family: "Permanent Marker";
+    src: url("../fonts/PermanentMarker.ttf") format("truetype");
+
 }
 
 body {
   font-family: 'Gloria Hallelujah', cursive, sans-serif;
+
 }
 .game-stats{
   position: absolute;
@@ -54,7 +58,9 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.canvas.android {
+  height: calc(100% + 20px);
+}
 .menu {
   background-image: url("../image/Chalkboard.png");
   background-repeat: no-repeat;
