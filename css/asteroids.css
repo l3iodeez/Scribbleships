@@ -13,6 +13,9 @@ h1, h2, p, strong, em, a, ul, li, button{
   text-align: inherit;
   color: inherit;
   background: transparent;
+  border: 1px solid transparent;
+
+
 }
 
 ul {
@@ -23,6 +26,13 @@ ul {
   content: "";
   clear: both;
   display: block;
+}
+
+@font-face {
+    font-family: "Gloria Hallelujah";
+    src: url("./fonts/Gloria.woff2") format("woff2");   
+        /* Make sure you defined the correct path, which is related to
+            the location of your file `my_css.css` */
 }
 
 body {
