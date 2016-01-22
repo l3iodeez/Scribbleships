@@ -59,7 +59,7 @@ body {
   height: 100%;
 }
 .canvas.android {
-  height: calc(100% + 20px);
+  padding-bottom: 30px;
 }
 .menu {
   background-image: url("../image/Chalkboard.png");
@@ -103,9 +103,13 @@ body {
 section.android {
   width: 346px;
   height: 200px;
-  left: calc(50% - 176px);
-  top: calc(50% - 100px);
+  left: calc(50% - 204px);
+  top: calc(50% - 130px);
   background-size: cover;
+
+}
+section.android .text-container {
+  padding-left: 10px;
 }
 section.android h1 {
   font-size: 10px;
@@ -116,11 +120,11 @@ section.android li {
 section.android button {
   font-size: 8px;
   text-align:  center;
+  margin-left: 20px;
 }
 section.android .button-container {
   text-align: left;
-  margin-left: 10px;
-  padding-top: 10px;
+  padding-top: 5px;
 
 }
 button {
