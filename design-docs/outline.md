@@ -30,5 +30,4 @@
     - Renders options menu / start menu etc.
 
 ### Todo
-  - DRY up sprite rendering.
-  -
+  - Android menu rendering.
